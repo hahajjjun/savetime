@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Scounter : Stopwatch and counter
+    </title>
+    <link href="stopwatch.css" rel="stylesheet">
+    <script src="stopwatch.js"></script>
+  </head>
+  <body>
+    <div id="logo">
+      <img height="60px" src=C:\stopwatch-js\logo.png title="logo" alt="logo"></img>
+      <div id="title">Time is expensive.</div>
+    </div>
+    <div id="stopwatch">
+      <div id="watchblock">
+        <!-- CURRENT TIME -->
+        <div id="sw-time">00:00:00</div>
+
+        <!-- CONTROLS -->
+        <input type="button" value="Reset." id="sw-rst" disabled/>
+        <input type="button" value="Start." id="sw-go" disabled/>
+      </div>  
+    </div>
+    <div id="counter">
+      <div id="countblock">
+        <div id="ct-num">0</div>
+        <!-- CONTROLS -->
+        <input type="button" value="Reset." id="ct-reset" disabled/>
+        <input type="button" value="+." id="ct-plus" disabled/>
+        <input type="button" value="-." id="ct-minus" disabled/>
+      </div>
+    </div>
+  </body>
+</html>
